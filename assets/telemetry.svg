@@ -1,4 +1,4 @@
-<svg viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="316 contributions in the last 30 days, 316 in the last year">
+<svg viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="317 contributions in the last 30 days, 317 in the last year">
   <style>
     :root { --bone:#1F1F1F; --muted:#4D4D4D; --dim:#707070; --rule:#C8C8C8; --accent:#3A3A3A; --ghost:#E2E2E2; }
     .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
@@ -20,7 +20,7 @@
 
   <g class="fade a1">
     <text class="mono" x="48" y="28" font-size="11" letter-spacing="3.5" fill="var(--muted)">CONTRIBUTION TELEMETRY</text>
-    <text class="mono" x="952" y="28" font-size="11" letter-spacing="2" fill="var(--muted)" text-anchor="end">316 IN 30 DAYS · 316 IN 12 MONTHS</text>
+    <text class="mono" x="952" y="28" font-size="11" letter-spacing="2" fill="var(--muted)" text-anchor="end">317 IN 30 DAYS · 317 IN 12 MONTHS</text>
   </g>
   <line class="draw a1" x1="48" y1="40" x2="952" y2="40" stroke="var(--rule)"/>
   <g class="fade a2">
@@ -32,19 +32,19 @@
     <text class="mono" x="74" y="127.33333333333334" font-size="10" fill="var(--muted)" text-anchor="end">40</text>
     <line x1="88" y1="70" x2="940" y2="70" stroke="var(--rule)" stroke-dasharray="2 4"/>
     <text class="mono" x="74" y="74" font-size="10" fill="var(--muted)" text-anchor="end">60</text>
-    <text class="mono" x="88" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">OCT 11</text>
-    <text class="mono" x="234.89655172413794" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">OCT 16</text>
-    <text class="mono" x="381.7931034482759" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">OCT 21</text>
-    <text class="mono" x="528.6896551724137" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">OCT 26</text>
-    <text class="mono" x="675.5862068965517" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">OCT 31</text>
-    <text class="mono" x="822.4827586206897" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">NOV 05</text>
-    <text class="mono" x="940" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">NOV 09</text>
+    <text class="mono" x="88" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">OCT 12</text>
+    <text class="mono" x="234.89655172413794" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">OCT 17</text>
+    <text class="mono" x="381.7931034482759" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">OCT 22</text>
+    <text class="mono" x="528.6896551724137" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">OCT 27</text>
+    <text class="mono" x="675.5862068965517" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">NOV 01</text>
+    <text class="mono" x="822.4827586206897" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">NOV 06</text>
+    <text class="mono" x="940" y="252" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">NOV 10</text>
   </g>
-  <path class="fade a3" d="M88.0 227.3 L117.4 227.3 L146.8 230.0 L176.1 230.0 L205.5 224.7 L234.9 230.0 L264.3 230.0 L293.7 230.0 L323.0 230.0 L352.4 198.0 L381.8 144.7 L411.2 160.7 L440.6 160.7 L469.9 230.0 L499.3 230.0 L528.7 152.7 L558.1 78.0 L587.4 211.3 L616.8 224.7 L646.2 230.0 L675.6 230.0 L705.0 216.7 L734.3 184.7 L763.7 160.7 L793.1 120.7 L822.5 200.7 L851.9 230.0 L881.2 230.0 L910.6 230.0 L940.0 174.0 L940 230 L88 230 Z" fill="var(--bone)" fill-opacity=".08"/>
-  <path class="draw a3" d="M88.0 227.3 L117.4 227.3 L146.8 230.0 L176.1 230.0 L205.5 224.7 L234.9 230.0 L264.3 230.0 L293.7 230.0 L323.0 230.0 L352.4 198.0 L381.8 144.7 L411.2 160.7 L440.6 160.7 L469.9 230.0 L499.3 230.0 L528.7 152.7 L558.1 78.0 L587.4 211.3 L616.8 224.7 L646.2 230.0 L675.6 230.0 L705.0 216.7 L734.3 184.7 L763.7 160.7 L793.1 120.7 L822.5 200.7 L851.9 230.0 L881.2 230.0 L910.6 230.0 L940.0 174.0" stroke="var(--bone)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <path class="fade a3" d="M88.0 227.3 L117.4 227.3 L146.8 230.0 L176.1 224.7 L205.5 230.0 L234.9 230.0 L264.3 230.0 L293.7 230.0 L323.0 198.0 L352.4 144.7 L381.8 160.7 L411.2 160.7 L440.6 230.0 L469.9 230.0 L499.3 152.7 L528.7 78.0 L558.1 211.3 L587.4 224.7 L616.8 230.0 L646.2 230.0 L675.6 216.7 L705.0 184.7 L734.3 160.7 L763.7 120.7 L793.1 200.7 L822.5 230.0 L851.9 230.0 L881.2 230.0 L910.6 174.0 L940.0 227.3 L940 230 L88 230 Z" fill="var(--bone)" fill-opacity=".08"/>
+  <path class="draw a3" d="M88.0 227.3 L117.4 227.3 L146.8 230.0 L176.1 224.7 L205.5 230.0 L234.9 230.0 L264.3 230.0 L293.7 230.0 L323.0 198.0 L352.4 144.7 L381.8 160.7 L411.2 160.7 L440.6 230.0 L469.9 230.0 L499.3 152.7 L528.7 78.0 L558.1 211.3 L587.4 224.7 L616.8 230.0 L646.2 230.0 L675.6 216.7 L705.0 184.7 L734.3 160.7 L763.7 120.7 L793.1 200.7 L822.5 230.0 L851.9 230.0 L881.2 230.0 L910.6 174.0 L940.0 227.3" stroke="var(--bone)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
   <g class="fade a5">
-    <circle cx="558.0689655172414" cy="78" r="4.5" fill="var(--bone)" stroke="#FFFFFF" stroke-width="2"/>
-    <text class="mono" x="558.0689655172414" y="64" font-size="11" letter-spacing="1" fill="var(--bone)" text-anchor="middle">peak 57 · OCT 27</text>
+    <circle cx="528.6896551724137" cy="78" r="4.5" fill="var(--bone)" stroke="#FFFFFF" stroke-width="2"/>
+    <text class="mono" x="528.6896551724137" y="64" font-size="11" letter-spacing="1" fill="var(--bone)" text-anchor="middle">peak 57 · OCT 27</text>
   </g>
   <text class="mono fade a6" x="48" y="288" font-size="10" letter-spacing="1.5" fill="var(--dim)">daily contributions · refreshed every night · private client work counts when enabled in profile settings</text>
 </svg>
