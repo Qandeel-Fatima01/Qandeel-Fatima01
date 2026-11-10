@@ -15,6 +15,7 @@
       .draw,.rise,.fade,.pulse,.ring { animation: none; } .draw{stroke-dashoffset:0} .rise,.fade{opacity:1} .ring{opacity:0}
     }
   </style>
+  <rect width="1000" height="206" fill="#0D1117"/>
 
   <line x1="138" y1="8" x2="138" y2="198" stroke="var(--rule)"/>
   <text class="mono rise a1" x="48" y="32" font-size="12" fill="var(--muted)" letter-spacing="2">LANGUAGES</text>

@@ -15,6 +15,7 @@
       .draw,.rise,.fade,.pulse,.ring { animation: none; } .draw{stroke-dashoffset:0} .rise,.fade{opacity:1} .ring{opacity:0}
     }
   </style>
+  <rect width="1000" height="590" fill="#FFFFFF"/>
 
   <g class="mono">
     <g transform="translate(0 20)"><g class="rise a1">

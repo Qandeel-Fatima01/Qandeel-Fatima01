@@ -1,7 +1,9 @@
 // Shared palette and SVG scaffolding for build.mjs and telemetry.mjs.
+// Every SVG paints its own background: GitHub picks the light/dark file from the OS
+// color scheme, not the GitHub theme, so a mismatch must still stay readable.
 export const THEMES = {
-  light: { bone: "#1F1F1F", muted: "#4D4D4D", dim: "#707070", rule: "#C8C8C8", accent: "#3A3A3A", ghost: "#E2E2E2" },
-  dark:  { bone: "#E0E0E0", muted: "#A6A6A6", dim: "#858585", rule: "#333333", accent: "#AAAAAA", ghost: "#2A2A2A" },
+  light: { bg: "#FFFFFF", bone: "#1F1F1F", muted: "#4D4D4D", dim: "#707070", rule: "#C8C8C8", accent: "#3A3A3A", ghost: "#E2E2E2" },
+  dark:  { bg: "#0D1117", bone: "#E0E0E0", muted: "#A6A6A6", dim: "#858585", rule: "#333333", accent: "#AAAAAA", ghost: "#2A2A2A" },
 };
 
 export const MONO = `ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace`;
@@ -27,6 +29,7 @@ export const svg = (w, h, label, t, body, extraCss = "") =>
   `<svg viewBox="0 0 ${w} ${h}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(label)}">
   <style>${base(t)}${extraCss}
   </style>
+  <rect width="${w}" height="${h}" fill="${t.bg}"/>
 ${body}
 </svg>
 `;
