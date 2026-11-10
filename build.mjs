@@ -1,4 +1,4 @@
-// Generates assets/*.svg (light) and assets/dark/*.svg (dark). Run: node build.mjs
+// Generates assets/*.svg (light theme only). Run: node build.mjs
 import { mkdirSync, writeFileSync } from "node:fs";
 import { THEMES, esc, svg } from "./theme.mjs";
 
@@ -147,10 +147,10 @@ const ASSETS = {
   s04: section("04", "TELEMETRY", "~/04-telemetry"),
 };
 
-for (const [theme, dir] of [["light", "assets"], ["dark", "assets/dark"]]) {
+for (const [theme, dir] of [["light", "assets"]]) {
   mkdirSync(new URL(dir, import.meta.url), { recursive: true });
   for (const [name, fn] of Object.entries(ASSETS)) {
     writeFileSync(new URL(`${dir}/${name}.svg`, import.meta.url), fn(THEMES[theme]));
   }
 }
-console.log(`wrote ${Object.keys(ASSETS).length * 2} svgs`);
+console.log(`wrote ${Object.keys(ASSETS).length} svgs`);

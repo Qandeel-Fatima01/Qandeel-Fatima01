@@ -1,4 +1,4 @@
-// Fetches the last year of contributions and writes assets/telemetry.svg (+ dark).
+// Fetches the last year of contributions and writes assets/telemetry.svg.
 // Run: GITHUB_TOKEN=... node telemetry.mjs   (the daily workflow does this)
 import { mkdirSync, writeFileSync } from "node:fs";
 import { THEMES, svg } from "./theme.mjs";
@@ -72,7 +72,7 @@ const telemetry = (t) => {
   </g>`);
 };
 
-for (const [theme, dir] of [["light", "assets"], ["dark", "assets/dark"]]) {
+for (const [theme, dir] of [["light", "assets"]]) {
   mkdirSync(new URL(dir, import.meta.url), { recursive: true });
   writeFileSync(new URL(`${dir}/telemetry.svg`, import.meta.url), telemetry(THEMES[theme]));
 }
