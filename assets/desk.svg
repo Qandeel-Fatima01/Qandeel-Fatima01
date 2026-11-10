@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1000 590" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Current workstreams">
+  <style>
+    :root { --bone:#1F1F1F; --muted:#6B6B6B; --dim:#999999; --rule:#C8C8C8; --accent:#3A3A3A; --ghost:#E2E2E2; }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .draw { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+    .fade { opacity: 0; animation: fade .7s ease forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .a1{animation-delay:.1s} .a2{animation-delay:.25s} .a3{animation-delay:.4s} .a4{animation-delay:.55s} .a5{animation-delay:.7s} .a6{animation-delay:.85s} .a7{animation-delay:1s}
+    @media (prefers-reduced-motion: reduce) {
+      .draw,.rise,.fade,.pulse,.ring { animation: none; } .draw{stroke-dashoffset:0} .rise,.fade{opacity:1} .ring{opacity:0}
+    }
+  </style>
+
+  <g class="mono">
+    <g transform="translate(0 20)"><g class="rise a1">
+      <text x="48" y="24" font-size="17" font-weight="700" letter-spacing=".8" fill="var(--bone)">01 / LOCATION INTELLIGENCE MAPS</text>
+      <text x="48" y="49" font-size="12" fill="var(--bone)">Interactive map layers for outlets, customer catchments and candidate expansion sites.</text>
+      <text x="48" y="68" font-size="12" fill="var(--bone)">Country-aware views and tightly scoped data, so each business sees exactly its own geography.</text>
+      <text x="48" y="87" font-size="11" letter-spacing=".4" fill="var(--muted)">MAPBOX · GEOJSON · NEXT.JS · SPATIAL QUERIES</text>
+      <line x1="48" y1="104" x2="952" y2="104" stroke="var(--rule)"/>
+    </g></g>
+    <g transform="translate(0 130)"><g class="rise a2">
+      <text x="48" y="24" font-size="17" font-weight="700" letter-spacing=".8" fill="var(--bone)">02 / KPI &amp; PERFORMANCE DASHBOARDS</text>
+      <text x="48" y="49" font-size="12" fill="var(--bone)">KPI cards and outlet-performance charts built on honest baselines — averages, not flattering spikes.</text>
+      <text x="48" y="68" font-size="12" fill="var(--bone)">Every number is traced back to its stored procedure before it reaches a chart.</text>
+      <text x="48" y="87" font-size="11" letter-spacing=".4" fill="var(--muted)">REACT · TYPESCRIPT · DATA VISUALIZATION · SQL STORED PROCEDURES</text>
+      <line x1="48" y1="104" x2="952" y2="104" stroke="var(--rule)"/>
+    </g></g>
+    <g transform="translate(0 240)"><g class="rise a3">
+      <text x="48" y="24" font-size="17" font-weight="700" letter-spacing=".8" fill="var(--bone)">03 / DATA PIPELINES &amp; UPLOADS</text>
+      <text x="48" y="49" font-size="12" fill="var(--bone)">Versioned customer-data uploads, sync jobs and relationship fixes across services.</text>
+      <text x="48" y="68" font-size="12" fill="var(--bone)">UTC-first date handling end to end, so a sale never lands on the wrong day.</text>
+      <text x="48" y="87" font-size="11" letter-spacing=".4" fill="var(--muted)">NODE.JS · TYPESCRIPT · DATA VERSIONING · ETL</text>
+      <line x1="48" y1="104" x2="952" y2="104" stroke="var(--rule)"/>
+    </g></g>
+    <g transform="translate(0 350)"><g class="rise a4">
+      <text x="48" y="24" font-size="17" font-weight="700" letter-spacing=".8" fill="var(--bone)">04 / MODEL SERVICES</text>
+      <text x="48" y="49" font-size="12" fill="var(--bone)">Python services for KNN model training and location scoring behind the dashboards.</text>
+      <text x="48" y="68" font-size="12" fill="var(--bone)">Kept small, testable and boring — the interesting part is the data going in.</text>
+      <text x="48" y="87" font-size="11" letter-spacing=".4" fill="var(--muted)">PYTHON · KNN · ML SERVICES · REST APIS</text>
+      <line x1="48" y1="104" x2="952" y2="104" stroke="var(--rule)"/>
+    </g></g>
+    <g transform="translate(0 460)"><g class="rise a5">
+      <text x="48" y="24" font-size="17" font-weight="700" letter-spacing=".8" fill="var(--bone)">05 / DATA QUALITY AUDITS</text>
+      <text x="48" y="49" font-size="12" fill="var(--bone)">Tracing anomalies down to the row — stray test data, scoping bugs, inflated counts.</text>
+      <text x="48" y="68" font-size="12" fill="var(--bone)">Each fix ships with a written report, a repro and a test matrix.</text>
+      <text x="48" y="87" font-size="11" letter-spacing=".4" fill="var(--muted)">SQL · AUDITING · QA · TECHNICAL WRITING</text>
+      <line x1="48" y1="104" x2="952" y2="104" stroke="var(--rule)"/>
+    </g></g>
+  </g>
+</svg>

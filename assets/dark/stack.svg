@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1000 206" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stack — languages, front end, GIS, back end, data, tooling">
+  <style>
+    :root { --bone:#E0E0E0; --muted:#888888; --dim:#666666; --rule:#333333; --accent:#AAAAAA; --ghost:#2A2A2A; }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .draw { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+    .fade { opacity: 0; animation: fade .7s ease forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .a1{animation-delay:.1s} .a2{animation-delay:.25s} .a3{animation-delay:.4s} .a4{animation-delay:.55s} .a5{animation-delay:.7s} .a6{animation-delay:.85s} .a7{animation-delay:1s}
+    @media (prefers-reduced-motion: reduce) {
+      .draw,.rise,.fade,.pulse,.ring { animation: none; } .draw{stroke-dashoffset:0} .rise,.fade{opacity:1} .ring{opacity:0}
+    }
+  </style>
+
+  <line x1="138" y1="8" x2="138" y2="198" stroke="var(--rule)"/>
+  <text class="mono rise a1" x="48" y="32" font-size="12" fill="var(--muted)" letter-spacing="2">LANGUAGES</text>
+  <text class="mono rise a1" x="154" y="32" font-size="15" fill="var(--bone)">TypeScript · JavaScript · Python · SQL</text>
+  <text class="mono rise a2" x="48" y="64" font-size="12" fill="var(--muted)" letter-spacing="2">FRONT END</text>
+  <text class="mono rise a2" x="154" y="64" font-size="15" fill="var(--bone)">Next.js · React · data visualization · responsive UI</text>
+  <text class="mono rise a3" x="48" y="96" font-size="12" fill="var(--muted)" letter-spacing="2">MAPS / GIS</text>
+  <text class="mono rise a3" x="154" y="96" font-size="15" fill="var(--bone)">Mapbox GL · GeoJSON · QGIS · spatial SQL</text>
+  <text class="mono rise a4" x="48" y="128" font-size="12" fill="var(--muted)" letter-spacing="2">BACK END</text>
+  <text class="mono rise a4" x="154" y="128" font-size="15" fill="var(--bone)">Node.js · REST APIs · stored procedures · microservices</text>
+  <text class="mono rise a5" x="48" y="160" font-size="12" fill="var(--muted)" letter-spacing="2">ML / DATA</text>
+  <text class="mono rise a5" x="154" y="160" font-size="15" fill="var(--bone)">Python services · KNN models · data auditing</text>
+  <text class="mono rise a6" x="48" y="192" font-size="12" fill="var(--muted)" letter-spacing="2">TOOLING</text>
+  <text class="mono rise a6" x="154" y="192" font-size="15" fill="var(--bone)">Git · GitHub · VS Code · Jupyter</text>
+</svg>
