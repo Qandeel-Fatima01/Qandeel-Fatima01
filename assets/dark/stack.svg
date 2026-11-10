@@ -1,6 +1,6 @@
 <svg viewBox="0 0 1000 206" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stack — languages, front end, GIS, back end, data, tooling">
   <style>
-    :root { --bone:#E0E0E0; --muted:#888888; --dim:#666666; --rule:#333333; --accent:#AAAAAA; --ghost:#2A2A2A; }
+    :root { --bone:#E0E0E0; --muted:#A6A6A6; --dim:#858585; --rule:#333333; --accent:#AAAAAA; --ghost:#2A2A2A; }
     .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
     .draw { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
     @keyframes draw { to { stroke-dashoffset: 0; } }
