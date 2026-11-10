@@ -15,7 +15,6 @@
       .draw,.rise,.fade,.pulse,.ring { animation: none; } .draw{stroke-dashoffset:0} .rise,.fade{opacity:1} .ring{opacity:0}
     }
   </style>
-  <rect width="1000" height="236" fill="#FFFFFF"/>
 
   <text class="mono rise a1" x="48" y="32" font-size="16" fill="var(--bone)">building location-intelligence tooling for a retail analytics platform at Metavystic.</text>
   <text class="mono rise a2" x="48" y="60" font-size="16" fill="var(--bone)">map layers, outlet performance, customer catchments — from stored procedure to pixel.</text>

@@ -17,7 +17,6 @@
     .ring { transform-origin: 856px 192px; animation: ring 2.4s ease-out infinite; }
     @keyframes ring { 0%{transform:scale(.4);opacity:.8} 80%,100%{transform:scale(2.8);opacity:0} }
   </style>
-  <rect width="1000" height="400" fill="#FFFFFF"/>
 
   <line class="draw a1" x1="48" y1="58" x2="952" y2="58" stroke="var(--rule)"/>
   <g class="fade a1">

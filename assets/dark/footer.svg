@@ -17,7 +17,6 @@
     .ring { transform-origin: 60px 64px; animation: ring 2.4s ease-out infinite; }
     @keyframes ring { 0%{transform:scale(.4);opacity:.8} 80%,100%{transform:scale(2.6);opacity:0} }
   </style>
-  <rect width="1000" height="110" fill="#0D1117"/>
 
   <line class="draw" x1="48" y1="24" x2="952" y2="24" stroke="var(--rule)"/>
   <circle class="ring" cx="60" cy="64" r="5" stroke="var(--accent)"/>
